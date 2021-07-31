@@ -1,0 +1,18 @@
+body {
+    letter-spacing: 0.1px;
+    font-family: 'Share Tech Mono', Monospace, Courier;
+    font-weight: 400;
+    font-size: 17px;
+    color: #c8c8c8;
+    background: #222;
+}
+
+.common{
+    letter-spacing: 0.1px;
+    font-family: 'Share Tech Mono', Monospace, Courier;
+    font-weight: 400;
+    font-size: 17px;
+    color: #c8c8c8;
+    background: #222;
+
+}
