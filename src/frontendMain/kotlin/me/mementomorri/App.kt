@@ -4,11 +4,8 @@ import me.mementomorri.Model.connectToServer
 import me.mementomorri.Model.tweetChannel
 import io.kvision.Application
 import io.kvision.core.*
-import io.kvision.form.text.Text
-import io.kvision.form.text.text
 import io.kvision.form.text.textAreaInput
-import io.kvision.html.button
-import io.kvision.html.label
+import io.kvision.html.*
 import io.kvision.module
 import io.kvision.panel.hPanel
 import io.kvision.panel.root
@@ -45,7 +42,6 @@ class App : Application() {
                     width = 350.px
                     height = 38.px
                 }
-//                tags.width = 350.px
                 hPanel(justify = JustifyContent.SPACEBETWEEN) {
                     width = 350.px
                     val tweet = textAreaInput {
