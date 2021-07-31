@@ -99,10 +99,12 @@ class App : Application() {
                     }
 
                 }
-
-//                add(tags)
                 label("Messages")
                 add(TweetPanel())
+                ul(className = "icons") {
+                    li(className = "icons") { link("","https://github.com/mementomorri",className = "fa fa-github")  }
+                    li(className = "icons") { link("","https://mementomorri.github.io/",className = "fa fa-dribbble") }
+                }
             }
         }
         connectToServer()
